@@ -1,0 +1,87 @@
+// Pregunta de opción múltiple
+¿Cuál es el tema principal del video? {
+=A) Principios de la programación en Python
+~B) La historia del lenguaje Python
+~C) Lenguajes de programación antiguos
+~D) Introducción a bases de datos
+}
+
+// Pregunta de completar espacios
+"En Python, se usa la palabra clave ____ para definir una función." {
+=def
+}
+
+// Pregunta de verdadero/falso
+"Python es un lenguaje compilado en lugar de interpretado." {F}
+
+// Pregunta de opción múltiple
+¿Qué significa el término POO en programación? {
+~A) Programación de Objetos y Operaciones
+=B) Programación Orientada a Objetos
+~C) Programación Óptima y Ordenada
+~D) Programación Organizada y Optimizada
+}
+
+// Pregunta de verdadero/falso
+La Programación Orientada a Objetos se basa en el uso de funciones y no en la organización de datos en objetos. {F}
+
+// Preguntas sobre Abstracción
+// Opción Múltiple
+¿Cuál es el propósito de la abstracción en POO? {
+=A) Ocultar la complejidad del sistema y mostrar solo lo esencial
+~B) Hacer que todo el código sea visible para el usuario
+~C) Definir todas las funciones en una sola clase
+~D) Evitar el uso de clases y métodos
+}
+
+// Rellenar espacios
+"La abstracción permite ____ los detalles internos de una implementación y mostrar solo lo relevante." {
+=ocultar
+}
+
+// Preguntas sobre Encapsulación
+// Opción Múltiple
+¿Qué mecanismo de POO permite restringir el acceso a los atributos y métodos de una clase? {
+~A) Polimorfismo
+=B) Encapsulación
+~C) Herencia
+~D) Modularidad
+}
+
+// Verdadero/Falso
+En Python, los atributos privados se definen con un doble guion bajo (__). {T}
+
+// Preguntas sobre Herencia
+// Opción Múltiple
+¿Cuál de las siguientes afirmaciones es correcta sobre la herencia en POO? {
+=A) Permite que una clase hija adquiera atributos y métodos de una clase padre
+~B) Evita la reutilización de código
+~C) Es exclusiva de Python y no existe en otros lenguajes
+~D) Obliga a todas las clases a ser idénticas
+}
+
+// Código en Python
+¿Cuál es la forma correcta de definir una clase `Coche` que herede de `Vehiculo`? {
+~A) class Coche: Vehiculo
+~B) class Coche < Vehiculo:
+=C) class Coche(Vehiculo):
+~D) inherit Coche from Vehiculo:
+}
+
+// Preguntas sobre Polimorfismo
+// Opción Múltiple
+¿Qué permite el polimorfismo en POO? {
+=A) Que una misma función se comporte de manera diferente según el objeto
+~B) Que las clases no puedan heredar métodos
+~C) Ocultar métodos dentro de una clase
+~D) Evitar que una función tenga distintos nombres
+}
+
+// Código en Python
+¿Cuál de los siguientes ejemplos representa polimorfismo en Python? {
+=A) class Ave:\n    def hacer_sonido(self):\n        return "Pío"\nclass Perro:\n    def hacer_sonido(self):\n        return "Guau"
+~B) class Animal:\n    def hacer_sonido(self):\n        pass
+~C) class Perro(Ave):\n    pass
+~D) print("Hola" + 5)
+}
+
