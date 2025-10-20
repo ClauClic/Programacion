@@ -1,1 +1,0 @@
-PERRO;Lirulai;3;DobermanGATO;mimi;2;true
