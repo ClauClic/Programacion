@@ -25,11 +25,11 @@ public class Comparaciones {
 		    System.out.println("Cuando una variable se define usando el =  Despues de copiar, son iguales?");
 
 		    // usando == 
-		    boolean compara1 = (nombre1 == nombre3);
+		    compara1 = (nombre1 == nombre3);
 		    System.out.println("Usando == da: " + compara1);
 
 		    // usando el método equals() 
-		    boolean compara2 = nombre1.equals(nombre3);
+		    compara2 = nombre1.equals(nombre3);
 		    System.out.println("Usando equals(): " + compara2);
 		}
 }
